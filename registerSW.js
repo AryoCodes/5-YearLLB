@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/5-YearLLB/sw.js', { scope: '/5-YearLLB/' })})}
