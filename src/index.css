@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f8fafc;
+  --color-primary-100: #f1f5f9;
+  --color-primary-200: #e2e8f0;
+  --color-primary-300: #cbd5e1;
+  --color-primary-400: #94a3b8;
+  --color-primary-500: #64748b;
+  --color-primary-600: #475569;
+  --color-primary-700: #334155;
+  --color-primary-800: #1e293b;
+  --color-primary-900: #0f172a;
+  --color-primary-950: #020617;
+  
+  /* Redefine Gold palette as neon/emerald green to align with the new background */
+  --color-gold-50: #f0fdf4;
+  --color-gold-100: #dcfce7;
+  --color-gold-200: #bbf7d0;
+  --color-gold-300: #4ade80; /* glowing neon green */
+  --color-gold-400: #22c55e;
+  --color-gold-500: #16a34a; /* primary green accent */
+  --color-gold-600: #15803d;
+  --color-gold-700: #166534;
+  --color-gold-800: #14532d;
+  --color-gold-900: #052e16;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-primary-950);
+    /* Lightened dark overlay to let the glowing 3D neon cubes show through */
+    background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.78), rgba(9, 9, 11, 0.88)), url('./assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--color-primary-100);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Retain text shadows for legibility but remove -webkit-text-stroke completely */
+  body, p, li, span, a, button, pre {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.015em;
+    font-weight: 800;
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.95);
+  }
+
+  .font-serif {
+    font-family: 'Cinzel', serif !important;
+    letter-spacing: 0.02em;
+  }
+
+  /* High contrast reading specifications */
+  article.prose {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #f8fafc !important;
+  }
+
+  article.prose p {
+    margin-bottom: 1.25rem;
+    font-weight: 450;
+    letter-spacing: -0.005em;
+  }
+
+  article.prose strong {
+    color: var(--color-gold-300);
+    font-weight: 800;
+  }
+
+  article.prose ul, article.prose ol {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  article.prose li {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+    font-weight: 450;
+  }
+
+  article.prose h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid var(--color-gold-500);
+    padding-left: 0.75rem;
+  }
+
+  .text-slate-400, .text-slate-450, .text-slate-500 {
+    color: var(--color-primary-200) !important;
+  }
+
+  /* Solid black dividers for structure */
+  div, aside, header, main, footer, hr, button, nav, a, ul, ol, li {
+    border-color: #000000 !important;
+  }
+
+  /* 
+    Frontend Architecture Tweak:
+    Override Tailwind's amber/gold utility classes globally to map to glowing green values,
+    transforming the app colors instantly without having to edit JSX nodes.
+  */
+  .text-amber-500, .text-amber-400, .text-amber-450 {
+    color: #4ade80 !important; /* Neon green */
+  }
+  .bg-amber-500 {
+    background-color: #22c55e !important; /* Green primary */
+  }
+  .bg-amber-500\/5 {
+    background-color: rgba(34, 197, 94, 0.05) !important;
+  }
+  .bg-amber-500\/10 {
+    background-color: rgba(34, 197, 94, 0.1) !important;
+  }
+  .border-amber-500\/10 {
+    border-color: rgba(34, 197, 94, 0.15) !important;
+  }
+  .border-amber-500\/20 {
+    border-color: rgba(34, 197, 94, 0.25) !important;
+  }
+  .border-amber-500\/30 {
+    border-color: rgba(34, 197, 94, 0.35) !important;
+  }
+  .border-amber-500\/45 {
+    border-color: rgba(34, 197, 94, 0.5) !important;
+  }
+  .shadow-amber-500\/10, .shadow-amber-900\/30 {
+    box-shadow: 0 8px 24px 0 rgba(34, 197, 94, 0.12) !important;
+  }
+  .hover\:border-amber-500\/45:hover {
+    border-color: rgba(34, 197, 94, 0.6) !important;
+  }
+  .hover\:border-amber-500\/20:hover {
+    border-color: rgba(34, 197, 94, 0.3) !important;
+  }
+  .hover\:border-amber-550:hover {
+    border-color: #22c55e !important;
+  }
+}
+
+/* Custom Glassmorphism Panels for High Contrast */
+.glass-panel {
+  background: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-md {
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-panel-light {
+  background: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
+  color: #ffffff !important;
+}
+
+/* Custom Scrollbar for modern premium look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-primary-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-700);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-600);
+}

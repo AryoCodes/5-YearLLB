@@ -1,0 +1,1599 @@
+{
+  "semesters": [
+    {
+      "id": "sem-1",
+      "number": 1,
+      "title": "Semester 1"
+    },
+    {
+      "id": "sem-2",
+      "number": 2,
+      "title": "Semester 2"
+    },
+    {
+      "id": "sem-3",
+      "number": 3,
+      "title": "Semester 3"
+    },
+    {
+      "id": "sem-4",
+      "number": 4,
+      "title": "Semester 4"
+    },
+    {
+      "id": "sem-5",
+      "number": 5,
+      "title": "Semester 5"
+    },
+    {
+      "id": "sem-6",
+      "number": 6,
+      "title": "Semester 6"
+    },
+    {
+      "id": "sem-7",
+      "number": 7,
+      "title": "Semester 7"
+    },
+    {
+      "id": "sem-8",
+      "number": 8,
+      "title": "Semester 8"
+    },
+    {
+      "id": "sem-9",
+      "number": 9,
+      "title": "Semester 9"
+    },
+    {
+      "id": "sem-10",
+      "number": 10,
+      "title": "Semester 10"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subj-criminal-1",
+      "semesterId": "sem-1",
+      "code": "LLB101",
+      "title": "Criminal Law I (Indian Penal Code)",
+      "description": "Introduction to crimes, mens rea, and general exceptions under Indian law."
+    },
+    {
+      "id": "subj-torts-1",
+      "semesterId": "sem-1",
+      "code": "LLB102",
+      "title": "Law of Torts",
+      "description": "Civil wrongs, negligence, strict liability, and consumer protection."
+    },
+    {
+      "id": "subj-consti-1",
+      "semesterId": "sem-2",
+      "code": "LLB201",
+      "title": "Constitutional Law I",
+      "description": "Preamble, Fundamental Rights, and the nature of the Indian Constitution."
+    },
+    {
+      "id": "subj-contract-1",
+      "semesterId": "sem-2",
+      "code": "LLB202",
+      "title": "Law of Contract I",
+      "description": "General principles of contract, offer, acceptance, consideration, and breach."
+    },
+    {
+      "id": "subj-consti-2",
+      "semesterId": "sem-3",
+      "code": "LLB301",
+      "title": "Constitutional Law II",
+      "description": "Directive Principles, Fundamental Duties, Writ Jurisdiction, and Basic Structure."
+    },
+    {
+      "id": "subj-family-1",
+      "semesterId": "sem-3",
+      "code": "LLB302",
+      "title": "Family Law I (Hindu Law)",
+      "description": "Sources of Hindu Law, marriage, divorce, and maintenance under HMA."
+    },
+    {
+      "id": "subj-family-2",
+      "semesterId": "sem-4",
+      "code": "LLB401",
+      "title": "Family Law II (Muslim Law)",
+      "description": "Concept of Nikah, Dower (Mahr), Talaq, and Wakf under Islamic jurisprudence."
+    },
+    {
+      "id": "subj-property-1",
+      "semesterId": "sem-4",
+      "code": "LLB402",
+      "title": "Property Law",
+      "description": "Transfer of property, mortgages, leases, and the doctrine of lis pendens."
+    },
+    {
+      "id": "subj-company-1",
+      "semesterId": "sem-5",
+      "code": "LLB501",
+      "title": "Company Law",
+      "description": "Corporate personality, lifting the veil, MoA, AoA, and directors' duties."
+    },
+    {
+      "id": "subj-pil-1",
+      "semesterId": "sem-5",
+      "code": "LLB502",
+      "title": "Public International Law",
+      "description": "Sources of international law, state recognition, asylum, and extradition."
+    },
+    {
+      "id": "subj-cpc",
+      "semesterId": "sem-6",
+      "code": "LLB601",
+      "title": "Civil Procedure Code (CPC)",
+      "description": "Rules and procedures for civil litigation in India."
+    },
+    {
+      "id": "subj-jurisprudence",
+      "semesterId": "sem-6",
+      "code": "LLB602",
+      "title": "Jurisprudence",
+      "description": "Legal theory and philosophy of law."
+    },
+    {
+      "id": "subj-corplaw",
+      "semesterId": "sem-7",
+      "code": "LLB701",
+      "title": "Corporate Law",
+      "description": "Formation, functioning, and regulation of companies under the Companies Act, 2013."
+    },
+    {
+      "id": "subj-labourlaw",
+      "semesterId": "sem-7",
+      "code": "LLB702",
+      "title": "Labour and Industrial Law",
+      "description": "Statutes protecting the rights of workers and managing industrial disputes."
+    },
+    {
+      "id": "subj-envlaw",
+      "semesterId": "sem-8",
+      "code": "LLB801",
+      "title": "Environmental Law",
+      "description": "Legal frameworks and doctrines protecting the environment in India."
+    },
+    {
+      "id": "subj-propertylaw",
+      "semesterId": "sem-8",
+      "code": "LLB802",
+      "title": "Property Law",
+      "description": "Principles governing the transfer of property, focusing on the Transfer of Property Act, 1882."
+    },
+    {
+      "id": "subj-adr",
+      "semesterId": "sem-9",
+      "code": "LLB901",
+      "title": "Alternative Dispute Resolution (ADR)",
+      "description": "Methods of resolving disputes outside the traditional courtroom, like arbitration and mediation."
+    },
+    {
+      "id": "subj-taxlaw",
+      "semesterId": "sem-9",
+      "code": "LLB902",
+      "title": "Taxation Law",
+      "description": "Principles of direct and indirect taxes, focusing on Income Tax and GST."
+    },
+    {
+      "id": "subj-ethics",
+      "semesterId": "sem-10",
+      "code": "LLB1001",
+      "title": "Professional Ethics & Bar-Bench Relations",
+      "description": "Codes of conduct for lawyers, the Advocates Act, and contempt of court."
+    },
+    {
+      "id": "subj-drafting",
+      "semesterId": "sem-10",
+      "code": "LLB1002",
+      "title": "Drafting, Pleading and Conveyance",
+      "description": "Clinical course focusing on the practical art of drafting legal documents."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "less-crim-1",
+      "subjectId": "subj-criminal-1",
+      "title": "Introduction to Crime and Mens Rea",
+      "order": 1,
+      "content": "<p><strong>What is a Crime?</strong></p><p>A crime is an unlawful act punishable by a state or other authority. In Indian criminal jurisprudence, liability generally requires two elements: the physical act and the mental intent.</p><p><strong>Actus Reus & Mens Rea</strong></p><ul><li><strong>Actus Reus:</strong> The 'guilty act' or the physical element of a crime.</li><li><strong>Mens Rea:</strong> The 'guilty mind' or the intention to commit a criminal act.</li></ul><p><em>Example:</em> If A accidentally drops a heavy box on B's foot, there is no Mens Rea, hence no crime. If A intentionally throws the box at B to hurt him, both Actus Reus and Mens Rea are present.</p>",
+      "templates": [
+        {
+          "id": "tmpl-crim-1",
+          "title": "Sample Criminal Complaint Draft",
+          "draftText": "IN THE COURT OF THE METROPOLITAN MAGISTRATE...\n\nComplaint under Section 200 CrPC / BNSS...\n\nRespectfully Sheweth:\n1. That the complainant is a law-abiding citizen...\n2. That the accused with malicious intent..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "R. v. Govinda (1876) ILR 1 Bom 342",
+          "facts": "The accused struck his wife on the head, causing her to fall. He kicked her, resulting in a fatal brain hemorrhage.",
+          "holding": "The court distinguished between Murder (Section 300) and Culpable Homicide (Section 299), finding the act fell under Culpable Homicide as the intention was to cause bodily injury, not necessarily death."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-crim-1-1",
+          "question": "Which of the following Latin maxims embodies the concept of Mens Rea?",
+          "options": [
+            "Actus non facit reum nisi mens sit rea",
+            "Volenti non fit injuria",
+            "Res ipsa loquitur",
+            "Caveat emptor"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "'Actus non facit reum nisi mens sit rea' translates to 'an act does not make a person guilty unless the mind is also guilty'."
+        }
+      ]
+    },
+    {
+      "id": "less-crim-2",
+      "subjectId": "subj-criminal-1",
+      "title": "General Exceptions: Right of Private Defense",
+      "order": 2,
+      "content": "<p><strong>What are General Exceptions?</strong></p><p>Chapter IV of the IPC (and corresponding BNSS sections) provides 'General Exceptions' where an act, though fulfilling the definition of a crime, is excused by law. One major exception is the <strong>Right of Private Defense</strong>.</p><p><strong>Key Principles:</strong></p><ul><li>Every person has a right to defend their own body, and the body of any other person, against offenses affecting the human body.</li><li>The force used must be <strong>proportionate</strong> to the threat.</li><li>There is no right of private defense if there is time to have recourse to the protection of public authorities.</li></ul><p><em>Example:</em> If someone attacks you with a deadly weapon, you may use necessary force (even causing death) to protect yourself. But if someone slaps you, you cannot shoot them.</p>",
+      "templates": [
+        {
+          "id": "tmpl-crim-2",
+          "title": "Pleading Private Defense in Written Statement",
+          "draftText": "The accused submits that the acts alleged were committed strictly in exercise of the Right of Private Defense of body under Section 96 IPC, as the complainant was the initial aggressor wielding a deadly weapon..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Darshan Singh v. State of Punjab (2010)",
+          "facts": "A dispute over property led to violence. The accused fired shots, resulting in death, claiming self-defense.",
+          "holding": "The Supreme Court held that a person cannot be expected to act like a coward when faced with imminent danger, but the force used must not be wholly disproportionate."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-crim-1-2",
+          "question": "The right of private defense extends to causing death in which scenario?",
+          "options": [
+            "Theft of minor property",
+            "Simple hurt",
+            "Assault with intention of kidnapping",
+            "Defamation"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "The law allows causing death in self-defense against specific grievous threats like kidnapping, rape, or apprehension of death/grievous hurt."
+        }
+      ]
+    },
+    {
+      "id": "less-torts-1",
+      "subjectId": "subj-torts-1",
+      "title": "Negligence and Duty of Care",
+      "order": 1,
+      "content": "<p><strong>Understanding Negligence</strong></p><p>In tort law, negligence is the breach of a legal duty to take care, resulting in damage to the plaintiff. It is an independent tort.</p><p><strong>Three Essentials of Negligence:</strong></p><ul><li><strong>Duty of Care:</strong> The defendant owed a legal duty to the plaintiff (Neighbor Principle).</li><li><strong>Breach of Duty:</strong> The defendant failed to exercise standard reasonable care.</li><li><strong>Damage:</strong> The plaintiff suffered foreseeable harm due to the breach.</li></ul><p><em>Example:</em> A municipal corporation leaves a manhole uncovered without warning signs. A pedestrian falls in and gets injured. The corporation is liable for negligence.</p>",
+      "templates": [
+        {
+          "id": "tmpl-torts-1",
+          "title": "Legal Notice for Medical Negligence",
+          "draftText": "To, Dr. [Name],\n\nUnder instructions from my client, I hereby issue this notice for gross medical negligence during the surgery dated [Date], where you breached your duty of care by..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Donoghue v. Stevenson (1932) AC 562",
+          "facts": "A woman drank ginger beer containing a decomposed snail, which was opaque. She fell ill and sued the manufacturer.",
+          "holding": "The House of Lords established the 'Neighbor Principle', stating manufacturers owe a duty of care to the final consumer."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-torts-1-1",
+          "question": "What test determines who you owe a duty of care to in tort law?",
+          "options": [
+            "The Neighbor Principle",
+            "The Stranger Principle",
+            "The Proximate Cause Test",
+            "The Contract Privity Test"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Established in Donoghue v. Stevenson, the neighbor principle states you must take reasonable care to avoid acts or omissions that could reasonably foreseeably injure your 'neighbor' (persons closely and directly affected)."
+        }
+      ]
+    },
+    {
+      "id": "less-torts-2",
+      "subjectId": "subj-torts-1",
+      "title": "Strict and Absolute Liability",
+      "order": 2,
+      "content": "<p><strong>Strict Liability vs. Absolute Liability</strong></p><p>Sometimes, a person is held liable for harm even if there was no negligence or malicious intent. This is 'No-Fault Liability'.</p><p><strong>Strict Liability:</strong> Originating from <em>Rylands v. Fletcher</em>. If a person brings a dangerous thing onto their land for a non-natural use, and it escapes and causes mischief, they are strictly liable. Exceptions include Act of God or plaintiff's fault.</p><p><strong>Absolute Liability:</strong> Evolved in India. It applies to hazardous or inherently dangerous industries. There are <strong>no exceptions</strong> (unlike Strict Liability). If harm occurs, the enterprise is absolutely liable.</p>",
+      "templates": [
+        {
+          "id": "tmpl-torts-2",
+          "title": "Plaint for Damages under Absolute Liability",
+          "draftText": "IN THE CIVIL COURT OF...\n\nSuit for Damages for Toxic Gas Leak\n\n1. The Defendant operates a hazardous chemical plant...\n2. Applying the rule of absolute liability (M.C. Mehta case), the defendant is bound to compensate..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "M.C. Mehta v. Union of India (1987) 1 SCC 395 (Oleum Gas Leak Case)",
+          "facts": "Oleum gas leaked from Shriram Food and Fertiliser Industries in Delhi, causing harm to the public.",
+          "holding": "The Supreme Court of India evolved the rule of 'Absolute Liability', holding that hazardous industries owe an absolute and non-delegable duty to the community without any exceptions."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-torts-1-2",
+          "question": "Which defense is available under Absolute Liability but NOT under Strict Liability?",
+          "options": [
+            "Act of God",
+            "Consent of the Plaintiff",
+            "Statutory Authority",
+            "None of the above"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "Absolute liability in India allows for NO defenses or exceptions, unlike the rule of Strict Liability."
+        }
+      ]
+    },
+    {
+      "id": "less-consti-1",
+      "subjectId": "subj-consti-1",
+      "title": "Article 14: Right to Equality",
+      "order": 1,
+      "content": "<p><strong>Right to Equality (Article 14)</strong></p><p>Article 14 of the Indian Constitution ensures that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.</p><ul><li><strong>Equality Before Law:</strong> A negative concept (borrowed from English law) meaning no special privileges for anyone; everyone is subject to ordinary law.</li><li><strong>Equal Protection of Laws:</strong> A positive concept (borrowed from the US Constitution) meaning equals should be treated equally.</li></ul><p><strong>Reasonable Classification:</strong> Article 14 forbids class legislation but permits reasonable classification if it is based on an intelligible differentia and has a rational nexus to the object sought to be achieved.</p>",
+      "templates": [
+        {
+          "id": "tmpl-consti-1",
+          "title": "Writ Petition Challenging Arbitrary State Action",
+          "draftText": "IN THE HIGH COURT OF...\n\nWrit Petition under Article 226\n\nThe Impugned Notification is highly arbitrary, discriminatory, and violates the petitioner's fundamental right guaranteed under Article 14..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "E.P. Royappa v. State of Tamil Nadu (1974)",
+          "facts": "A civil servant challenged his transfer as being arbitrary and politically motivated.",
+          "holding": "The Supreme Court expanded Article 14, stating that 'Equality is a dynamic concept... and cannot be cribbed, cabined and confined'. Arbitrariness is the antithesis of equality."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-consti-1-1",
+          "question": "What are the two conditions for 'reasonable classification' under Article 14?",
+          "options": [
+            "Arbitrariness and Discretion",
+            "Intelligible differentia and Rational nexus",
+            "State necessity and Public interest",
+            "Class legislation and Privilege"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A valid classification must be founded on an intelligible differentia (clear distinction) which has a rational nexus (connection) to the objective of the statute."
+        }
+      ]
+    },
+    {
+      "id": "less-consti-2",
+      "subjectId": "subj-consti-1",
+      "title": "Article 21: Right to Life and Personal Liberty",
+      "order": 2,
+      "content": "<p><strong>The Heart of Fundamental Rights</strong></p><p>Article 21 states: <em>'No person shall be deprived of his life or personal liberty except according to procedure established by law.'</em></p><p>Over the years, the judiciary has interpreted Article 21 expansively. It doesn't just mean animal existence, but the right to live with human dignity.</p><p><strong>Key Inclusions under Article 21:</strong></p><ul><li>Right to Privacy (Puttaswamy case)</li><li>Right to a clean environment</li><li>Right to free legal aid and speedy trial</li><li>Right to health and medical care</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-consti-2",
+          "title": "Habeas Corpus Petition Format",
+          "draftText": "IN THE SUPREME COURT OF INDIA\n\nPetition for issuance of a Writ of Habeas Corpus\n\nThe illegal detention of the petitioner is a gross violation of personal liberty guaranteed under Article 21 of the Constitution..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Maneka Gandhi v. Union of India (1978) 1 SCC 248",
+          "facts": "The petitioner's passport was impounded by authorities 'in public interest' without giving her a chance to be heard.",
+          "holding": "The Supreme Court held that the 'procedure established by law' under Article 21 must be fair, just, and reasonable, not fanciful, oppressive, or arbitrary. It incorporated principles of natural justice into Article 21."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-consti-1-2",
+          "question": "Which landmark judgment declared the Right to Privacy as a fundamental right under Article 21?",
+          "options": [
+            "A.K. Gopalan case",
+            "K.S. Puttaswamy v. Union of India",
+            "Kesavananda Bharati case",
+            "Vishaka v. State of Rajasthan"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "In 2017, a 9-judge bench in K.S. Puttaswamy v. Union of India unanimously held that the Right to Privacy is an intrinsic part of Article 21."
+        }
+      ]
+    },
+    {
+      "id": "less-contract-1",
+      "subjectId": "subj-contract-1",
+      "title": "Essentials of a Valid Contract",
+      "order": 1,
+      "content": "<p><strong>What is a Contract?</strong></p><p>Section 2(h) of the Indian Contract Act, 1872 defines a contract as <em>'an agreement enforceable by law'</em>.</p><p><strong>Essential Elements (Section 10):</strong></p><ul><li><strong>Offer and Acceptance:</strong> Lawful proposal and unconditional acceptance.</li><li><strong>Intention to create legal relations:</strong> Social agreements are not contracts.</li><li><strong>Lawful Consideration:</strong> Something in return (quid pro quo).</li><li><strong>Capacity of Parties:</strong> Must be of majority age, sound mind, and not disqualified by law.</li><li><strong>Free Consent:</strong> Not caused by coercion, undue influence, fraud, misrepresentation, or mistake.</li></ul><p><em>Example:</em> A agrees to sell his car to B for \u20b910,000. This is a valid contract if both consent freely.</p>",
+      "templates": [
+        {
+          "id": "tmpl-contract-1",
+          "title": "Basic Commercial Contract Clauses",
+          "draftText": "THIS AGREEMENT is made on [Date] between [Party A] and [Party B].\n\n1. CONSIDERATION: Party B shall pay Rs. [Amount]...\n2. OBLIGATIONS: Party A agrees to deliver..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Balfour v. Balfour (1919) 2 KB 571",
+          "facts": "A husband promised to pay his wife a monthly allowance. They separated, and he stopped paying. She sued.",
+          "holding": "The court held there was no contract because in domestic agreements, there is usually no intention to create legal relations."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-contract-1-1",
+          "question": "Which of the following makes an agreement void ab initio (void from the beginning) in India?",
+          "options": [
+            "Contract with a minor",
+            "Contract under coercion",
+            "Contract under undue influence",
+            "Breach of contract"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Under the Indian Contract Act, a contract with a minor is void ab initio, as established in the landmark case of Mohori Bibee v. Dharmodas Ghose."
+        }
+      ]
+    },
+    {
+      "id": "less-contract-2",
+      "subjectId": "subj-contract-1",
+      "title": "Breach of Contract and Damages",
+      "order": 2,
+      "content": "<p><strong>Breach of Contract</strong></p><p>When a party fails to perform their obligations under a contract, it is a breach. A breach can be actual (on the date of performance) or anticipatory (before the date of performance).</p><p><strong>Remedies for Breach:</strong></p><ul><li><strong>Damages:</strong> Monetary compensation for loss suffered (Section 73).</li><li><strong>Specific Performance:</strong> Court orders the party to perform the promise.</li><li><strong>Injunction:</strong> Court order restraining a party from doing something.</li></ul><p><strong>Rule of Damages:</strong> The law provides compensation for losses that naturally arise in the usual course of things, not for remote or indirect losses.</p>",
+      "templates": [
+        {
+          "id": "tmpl-contract-2",
+          "title": "Notice for Breach of Contract",
+          "draftText": "To [Name],\n\nYou have failed to deliver the goods as per our Agreement dated [Date]. You are hereby notified to remedy this breach within 15 days or face legal action for damages and specific performance."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Hadley v. Baxendale (1854)",
+          "facts": "A mill shaft broke, and the carrier delayed returning the repaired shaft, causing the mill to lose profits. The carrier was not informed that the mill would remain closed without the shaft.",
+          "holding": "The court ruled the carrier was not liable for the lost profits because the special circumstances were not communicated to him. Damages are only for foreseeable losses."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-contract-1-2",
+          "question": "What type of damages are pre-estimated and agreed upon by the parties at the time of making the contract?",
+          "options": [
+            "Unliquidated Damages",
+            "Liquidated Damages",
+            "Nominal Damages",
+            "Vindictive Damages"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Liquidated damages are a genuine pre-estimate of loss agreed upon in the contract, governed by Section 74 of the ICA."
+        }
+      ]
+    },
+    {
+      "id": "less-consti-2-1",
+      "subjectId": "subj-consti-2",
+      "title": "Writ Jurisdiction (Articles 32 and 226)",
+      "order": 1,
+      "content": "<p><strong>Constitutional Remedies</strong></p><p>Dr. B.R. Ambedkar called Article 32 the 'heart and soul' of the Constitution. It allows citizens to approach the Supreme Court directly for the enforcement of Fundamental Rights.</p><p>Article 226 allows High Courts to issue writs for Fundamental Rights AND 'for any other purpose' (legal rights).</p><p><strong>The 5 Prerogative Writs:</strong></p><ul><li><strong>Habeas Corpus:</strong> 'To have the body' (against illegal detention).</li><li><strong>Mandamus:</strong> 'We command' (ordering a public official to do their duty).</li><li><strong>Prohibition:</strong> Restraining a lower court from exceeding jurisdiction.</li><li><strong>Certiorari:</strong> Quashing an order of a lower court.</li><li><strong>Quo Warranto:</strong> Asking 'by what authority' one holds a public office.</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-consti-2-1",
+          "title": "Writ of Mandamus Draft",
+          "draftText": "IN THE HIGH COURT OF...\n\nPetition for Writ of Mandamus\n\nPrayer: Issue a writ of Mandamus directing the Respondent Authority to fulfill its statutory duty of issuing the petitioner's license, which has been arbitrarily withheld..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "ADM Jabalpur v. Shivkant Shukla (1976)",
+          "facts": "During the Emergency, the government suspended the right to move courts for enforcement of Article 21.",
+          "holding": "In a highly criticized judgment, the majority held that Habeas Corpus petitions were not maintainable during Emergency. (This was later rectified by the 44th Amendment and overturned in Puttaswamy)."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-consti-2-1",
+          "question": "Which writ is issued to inquire into the legality of a person's claim to a public office?",
+          "options": [
+            "Certiorari",
+            "Mandamus",
+            "Quo Warranto",
+            "Prohibition"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Quo Warranto literally translates to 'by what authority or warrant', and is used to prevent illegal usurpation of public offices."
+        }
+      ]
+    },
+    {
+      "id": "less-consti-2-2",
+      "subjectId": "subj-consti-2",
+      "title": "Basic Structure Doctrine",
+      "order": 2,
+      "content": "<p><strong>Amending the Constitution</strong></p><p>Article 368 gives Parliament the power to amend the Constitution. But can they amend <em>everything</em>, including Fundamental Rights? This question led to a massive judicial tug-of-war in India.</p><p><strong>The Basic Structure Doctrine</strong></p><p>Established in the monumental <em>Kesavananda Bharati</em> case, the Supreme Court ruled that while Parliament has wide amending powers, it <strong>cannot destroy or alter the 'Basic Structure'</strong> of the Constitution.</p><p>Elements of Basic Structure include: Supremacy of the Constitution, Rule of Law, Secularism, Separation of Powers, and Judicial Review.</p>",
+      "templates": [
+        {
+          "id": "tmpl-consti-2-2",
+          "title": "Pleading Constitutional Invalidity",
+          "draftText": "The petitioner respectfully submits that the [Insert Amendment Act Name] is ultra vires and unconstitutional as it abrogates the independence of the judiciary, which constitutes the Basic Structure of our Constitution..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Kesavananda Bharati v. State of Kerala (1973) 4 SCC 225",
+          "facts": "A Kerala seer challenged state land reform laws under Article 32. It was heard by a 13-judge bench, the largest in India's history.",
+          "holding": "By a 7:6 majority, the Court held that Parliament can amend any part of the Constitution, provided it does not alter its 'Basic Structure'."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-consti-2-2",
+          "question": "Which constitutional amendment was struck down by the Supreme Court for violating the basic structure (judicial independence) in 2015?",
+          "options": [
+            "42nd Amendment",
+            "44th Amendment",
+            "99th Amendment (NJAC)",
+            "103rd Amendment (EWS)"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "The 99th Amendment establishing the National Judicial Appointments Commission (NJAC) was struck down because it compromised the independence of the judiciary, a basic feature."
+        }
+      ]
+    },
+    {
+      "id": "less-family-1-1",
+      "subjectId": "subj-family-1",
+      "title": "Conditions of a Valid Hindu Marriage",
+      "order": 1,
+      "content": "<p><strong>Hindu Marriage Act, 1955</strong></p><p>Section 5 of the HMA lays down the conditions for a valid Hindu marriage. If these are violated, the marriage may be void or voidable.</p><p><strong>The 5 Conditions:</strong></p><ul><li><strong>Monogamy:</strong> Neither party should have a spouse living at the time of marriage.</li><li><strong>Mental Capacity:</strong> Capable of giving valid consent; not suffering from mental disorder rendering them unfit for marriage/procreation.</li><li><strong>Age:</strong> Bridegroom must be 21, Bride must be 18.</li><li><strong>Prohibited Degrees:</strong> Parties must not be within the prohibited degrees of relationship (unless custom permits).</li><li><strong>Sapinda:</strong> Parties must not be sapindas (lineal ascendants) of each other (unless custom permits).</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-family-1-1",
+          "title": "Petition for Declaration of Nullity",
+          "draftText": "IN THE FAMILY COURT...\n\nPetition under Section 11 of the Hindu Marriage Act, 1955\n\nThe marriage solemnized is void ab initio as the Respondent had a living spouse at the time of our marriage, violating Section 5(i)..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Bhaurao Shankar Lokhande v. State of Maharashtra (1965)",
+          "facts": "The appellant married a second time while his first wife was alive, but essential ceremonies (Saptapadi) were not performed for the second marriage.",
+          "holding": "The Supreme Court held that the offense of Bigamy is not committed if the second 'marriage' is not validly solemnized with essential religious ceremonies."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-family-1-1",
+          "question": "A marriage solemnized in violation of the age condition (Sec 5(iii) of HMA) is technically classified as:",
+          "options": [
+            "Void",
+            "Voidable",
+            "Valid but punishable",
+            "None of the above"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Interestingly, under HMA, underage marriage is neither void nor voidable by default, but it is valid and attracts punishment under the Prohibition of Child Marriage Act."
+        }
+      ]
+    },
+    {
+      "id": "less-family-1-2",
+      "subjectId": "subj-family-1",
+      "title": "Divorce under Hindu Marriage Act",
+      "order": 2,
+      "content": "<p><strong>Theories of Divorce</strong></p><p>The HMA incorporates three theories of divorce: <em>Fault Theory</em>, <em>Breakdown Theory</em>, and <em>Mutual Consent Theory</em>.</p><p><strong>Grounds for Divorce (Section 13):</strong></p><ul><li><strong>Adultery:</strong> Voluntary sexual intercourse with anyone other than the spouse.</li><li><strong>Cruelty:</strong> Physical or mental harm causing reasonable apprehension in the mind of the spouse.</li><li><strong>Desertion:</strong> Abandonment for a continuous period of not less than two years.</li><li><strong>Conversion:</strong> Ceasing to be a Hindu.</li></ul><p><strong>Mutual Consent (Section 13B):</strong> Parties living separately for one year can jointly petition for divorce.</p>",
+      "templates": [
+        {
+          "id": "tmpl-family-1-2",
+          "title": "First Motion for Mutual Divorce",
+          "draftText": "IN THE FAMILY COURT...\n\nJoint Petition under Sec 13B of HMA\n\n1. Both parties have been living separately since [Date].\n2. There is no possibility of reconciliation.\n3. All alimony and custody matters are settled amicably..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Naveen Kohli v. Neelu Kohli (2006)",
+          "facts": "The couple had lived separately for over 10 years amid severe mutual hostility and multiple criminal/civil cases against each other.",
+          "holding": "The SC granted divorce on grounds of 'mental cruelty', strongly recommending to the legislature to include 'irretrievable breakdown of marriage' as a direct ground for divorce."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-family-1-2",
+          "question": "What is the statutory cooling-off period required after filing a mutual consent divorce petition (unless waived by the court)?",
+          "options": [
+            "3 Months",
+            "6 Months",
+            "1 Year",
+            "No period required"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 13B(2) mandates a 6-month wait before the second motion, to allow time for reconciliation, though recent SC judgments allow waiving this in exceptional cases."
+        }
+      ]
+    },
+    {
+      "id": "less-family-2-1",
+      "subjectId": "subj-family-2",
+      "title": "Concept of Nikah (Marriage) and Mahr",
+      "order": 1,
+      "content": "<p><strong>Nikah: A Civil Contract</strong></p><p>Unlike Hindu marriage which is a sacrament, Muslim marriage (Nikah) is traditionally viewed as a civil contract. The primary object is the procreation and legalizing of children.</p><p><strong>Essentials of a Valid Nikah:</strong></p><ul><li><strong>Proposal (Ijab) and Acceptance (Qubul):</strong> Must occur in the same sitting.</li><li><strong>Competence:</strong> Parties must be of sound mind and have attained puberty (usually presumed at 15).</li><li><strong>Witnesses:</strong> Required in Sunni law (2 males or 1 male + 2 females). Not strictly required in Shia law.</li></ul><p><strong>Mahr (Dower):</strong> A sum of money or property which the wife is entitled to receive from the husband in consideration of the marriage. It can be Prompt (payable immediately) or Deferred (payable on dissolution).</p>",
+      "templates": [
+        {
+          "id": "tmpl-family-2-1",
+          "title": "Nikahnama (Marriage Contract) Key Elements",
+          "draftText": "Name of Groom: ...\nName of Bride: ...\nAmount of Mahr (Prompt/Deferred): ...\nSpecial Conditions (e.g., Talaq-e-Tafweez/Delegated Divorce): ..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Abdul Kadir v. Salima (1886)",
+          "facts": "A husband sued for restitution of conjugal rights, but the wife argued she had not been paid her prompt dower.",
+          "holding": "Justice Mahmood observed that Muslim marriage is not purely a civil contract but a religious sacrament too. However, non-payment of prompt dower gives the wife the right to refuse conjugal rights."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-family-2-1",
+          "question": "What happens if the amount of Mahr is not explicitly specified at the time of marriage?",
+          "options": [
+            "The marriage is void",
+            "The marriage is irregular",
+            "Proper Dower (Mahr-i-Misl) must be paid",
+            "No dower is required"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "If Mahr is not specified, the wife is entitled to 'Proper Dower' (Mahr-i-Misl), calculated based on the dower of her female paternal relatives."
+        }
+      ]
+    },
+    {
+      "id": "less-family-2-2",
+      "subjectId": "subj-family-2",
+      "title": "Dissolution of Marriage (Talaq)",
+      "order": 2,
+      "content": "<p><strong>Modes of Divorce in Islamic Law</strong></p><p>Under Muslim law, marriage can be dissolved by the husband (Talaq), by the wife (Khula/Talaq-e-Tafweez), by mutual consent (Mubarat), or by judicial decree.</p><p><strong>Types of Talaq:</strong></p><ul><li><strong>Talaq-ul-Sunnat:</strong> The approved form. Includes <em>Talaq-e-Ahsan</em> (single pronouncement followed by abstinence during Iddat) and <em>Talaq-e-Hasan</em> (three pronouncements in three successive tuhrs/purities).</li><li><strong>Talaq-e-Biddat (Triple Talaq):</strong> The disapproved/innovative form. Three pronouncements in one sitting, taking immediate effect. This has been heavily debated and regulated.</li></ul><p><strong>Legislative Intervention:</strong> The Muslim Women (Protection of Rights on Marriage) Act, 2019 made instant Triple Talaq a criminal offense in India.</p>",
+      "templates": [
+        {
+          "id": "tmpl-family-2-2",
+          "title": "Plaint for Judicial Divorce (Wife)",
+          "draftText": "IN THE FAMILY COURT...\n\nSuit under The Dissolution of Muslim Marriages Act, 1939\n\nThe plaintiff seeks dissolution on the grounds that the husband has neglected or failed to provide her maintenance for a period of two years..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Shayara Bano v. Union of India (2017) 9 SCC 1",
+          "facts": "A Muslim woman challenged the constitutionality of Talaq-e-Biddat (instant Triple Talaq).",
+          "holding": "By a 3:2 majority, the Supreme Court declared the practice of instant Triple Talaq as unconstitutional and violative of Article 14 (Right to Equality), as it is manifestly arbitrary."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-family-2-2",
+          "question": "Which Act gives Muslim women the right to seek divorce in courts on specific grounds like cruelty or husband's imprisonment?",
+          "options": [
+            "Muslim Personal Law (Shariat) Application Act, 1937",
+            "Dissolution of Muslim Marriages Act, 1939",
+            "Muslim Women Act, 1986",
+            "Special Marriage Act, 1954"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Dissolution of Muslim Marriages Act, 1939 codified the rights of Muslim women to seek judicial divorce on various listed grounds."
+        }
+      ]
+    },
+    {
+      "id": "less-prop-1-1",
+      "subjectId": "subj-property-1",
+      "title": "Meaning and Transfer of Property",
+      "order": 1,
+      "content": "<p><strong>Transfer of Property Act, 1882</strong></p><p>The TPA governs the transfer of property between living persons (inter vivos). It primarily deals with immovable property, though some rules apply to movable property.</p><p><strong>What is 'Transfer of Property' (Section 5)?</strong></p><p>It means an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself and others.</p><p><strong>What CANNOT be transferred (Section 6)?</strong></p><ul><li>Spes Successionis (chance of an heir apparent succeeding to an estate).</li><li>Right of Re-entry for breach of a condition subsequent.</li><li>An easement apart from the dominant heritage.</li><li>A right to sue.</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-prop-1-1",
+          "title": "Standard Sale Deed Clause",
+          "draftText": "NOW THIS DEED WITNESSETH:\n\nThat in consideration of Rs. [Amount], the Vendor hereby grants, conveys, and transfers by way of absolute sale, free from all encumbrances, the property described in the Schedule below to the Purchaser..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Jumma Masjid v. Kodimaniandra Deviah (1962)",
+          "facts": "An individual transferred property expecting to inherit it (spes successionis), but when he actually inherited it later, he refused to hand it over.",
+          "holding": "The Supreme Court applied Section 43 (Feeding the grant by estoppel) over Section 6(a), forcing him to transfer the property once he actually acquired title."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-prop-1-1",
+          "question": "Can the 'mere right to sue' (e.g., right to sue for unliquidated damages in tort) be transferred under the TPA?",
+          "options": [
+            "Yes, always",
+            "No, it is barred under Section 6(e)",
+            "Yes, but only to a family member",
+            "Yes, with court permission"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 6(e) explicitly states that a mere right to sue cannot be transferred, to prevent gambling in litigation and champerty."
+        }
+      ]
+    },
+    {
+      "id": "less-prop-1-2",
+      "subjectId": "subj-property-1",
+      "title": "Doctrine of Lis Pendens",
+      "order": 2,
+      "content": "<p><strong>Doctrine of Lis Pendens (Section 52)</strong></p><p><em>Lis Pendens</em> translates to 'a pending suit'. The maxim is: <em>Pendente lite nihil innovetur</em> (During litigation, nothing new should be introduced).</p><p><strong>The Rule:</strong> When a lawsuit involving rights to an immovable property is pending in a competent court, the property cannot be transferred or otherwise dealt with by any party to the suit to the prejudice of the other party.</p><p>If a property is sold while a case is pending, the buyer takes it subject to the outcome of the court case. This protects the court's decree from being rendered useless by endless property transfers.</p>",
+      "templates": [
+        {
+          "id": "tmpl-prop-1-2",
+          "title": "Application for Impleading Pendente Lite Purchaser",
+          "draftText": "IN THE CIVIL COURT...\n\nApplication under Order 22 Rule 10 CPC\n\nThe Defendant alienated the suit property to Mr. X during the pendency of this suit. Mr. X is bound by the doctrine of Lis Pendens and must be impleaded as a party..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Bellamy v. Sabine (1857)",
+          "facts": "A landmark English case where property rights were transferred while a lawsuit regarding those same rights was active.",
+          "holding": "The court formulated the doctrine of Lis Pendens, stating it rests on public policy and necessity, rather than actual notice of the lawsuit, to ensure judicial decisions are effective."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-prop-1-2",
+          "question": "For Lis Pendens to apply under Section 52, the pending suit must not be:",
+          "options": [
+            "In a competent court",
+            "Collusive (fake/staged by parties)",
+            "Relating to immovable property",
+            "Adversarial in nature"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 52 expressly states that the suit or proceeding must not be collusive. If parties stage a fake lawsuit just to freeze property transfers, the doctrine will not protect them."
+        }
+      ]
+    },
+    {
+      "id": "less-company-1-1",
+      "subjectId": "subj-company-1",
+      "title": "Corporate Personality and Lifting the Veil",
+      "order": 1,
+      "content": "<p><strong>Separate Legal Entity</strong></p><p>A fundamental principle of Company Law is that a registered company is a separate legal entity distinct from its members/shareholders. It can sue, be sued, hold property, and has perpetual succession.</p><p><strong>Lifting the Corporate Veil</strong></p><p>While a company has a separate identity, the law will not allow individuals to hide behind this 'corporate veil' to commit fraud or evade legal duties. When courts look past the company to punish the actual people controlling it, it is called 'Lifting the Corporate Veil'.</p><p><strong>Grounds for lifting the veil:</strong></p><ul><li>Prevention of fraud or improper conduct.</li><li>Protection of revenue/tax evasion.</li><li>Determining the enemy character of a company (during war).</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-company-1-1",
+          "title": "Plaint Pleading for Lifting the Corporate Veil",
+          "draftText": "The Plaintiff submits that Defendant No. 1 (Company) is a mere sham and alter-ego created by Defendant No. 2 (Director) solely to evade the contractual obligations and perpetrate fraud. The corporate veil must be pierced..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Salomon v. A Salomon & Co Ltd (1897)",
+          "facts": "Salomon incorporated his boot-making business, taking most shares and secured debentures. When the company went bankrupt, unsecured creditors argued Salomon and the company were the same person.",
+          "holding": "The House of Lords established the principle of separate legal personality. The company was distinct from Salomon, making his secured debentures valid against unsecured creditors."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-company-1-1",
+          "question": "In which scenario are courts most likely to 'lift the corporate veil'?",
+          "options": [
+            "When a company makes a business loss",
+            "When the company is used as a cloak for fraud or illegal acts",
+            "When a shareholder sells all their shares",
+            "When a company fires its CEO"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Courts will lift the veil when the corporate structure is being abused to commit fraud, evade taxes, or avoid legal obligations."
+        }
+      ]
+    },
+    {
+      "id": "less-company-1-2",
+      "subjectId": "subj-company-1",
+      "title": "Memorandum and Articles of Association",
+      "order": 2,
+      "content": "<p><strong>The Constitution of a Company</strong></p><p>Every company has two primary charter documents: the Memorandum of Association (MoA) and the Articles of Association (AoA).</p><p><strong>Memorandum of Association (MoA):</strong></p><ul><li>Defines the company's external boundary and its relationship with the outside world.</li><li>Contains the Name Clause, Registered Office Clause, Object Clause (what the company can do), Liability Clause, and Capital Clause.</li><li>Any act outside the MoA is <em>Ultra Vires</em> (beyond powers) and void.</li></ul><p><strong>Articles of Association (AoA):</strong></p><ul><li>Defines internal regulations and management of the company.</li><li>Governs the relationship between the company and its members.</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-company-1-2",
+          "title": "MoA Object Clause Draft",
+          "draftText": "III. The objects for which the Company is established are:\n(A) MAIN OBJECTS:\nTo carry on the business of software development, IT consulting, and data processing services...\n(B) MATTERS NECESSARY FOR FURTHERANCE:\nTo acquire, buy, lease real estate..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Ashbury Railway Carriage and Iron Co Ltd v. Riche (1875)",
+          "facts": "A company's MoA stated its object was to make/sell railway carriages. The directors contracted to build a railway line in Belgium.",
+          "holding": "The court held the contract was <em>ultra vires</em> (beyond the powers of) the MoA. Even if all shareholders ratified it, a contract outside the MoA's objects is void."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-company-1-2",
+          "question": "The doctrine that protects outsiders who deal with a company, assuming its internal procedures have been correctly followed, is called:",
+          "options": [
+            "Doctrine of Ultra Vires",
+            "Doctrine of Indoor Management (Turquand's Rule)",
+            "Doctrine of Constructive Notice",
+            "Doctrine of Alter Ego"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Doctrine of Indoor Management (from the Royal British Bank v Turquand case) protects third parties by allowing them to assume that a company's internal rules (AoA) have been properly complied with by the directors."
+        }
+      ]
+    },
+    {
+      "id": "less-pil-1-1",
+      "subjectId": "subj-pil-1",
+      "title": "Sources of Public International Law",
+      "order": 1,
+      "content": "<p><strong>Where does International Law come from?</strong></p><p>Unlike domestic law, there is no global legislature. Article 38(1) of the Statute of the International Court of Justice (ICJ) provides the authoritative list of sources.</p><p><strong>Primary Sources:</strong></p><ul><li><strong>International Conventions (Treaties):</strong> Formal agreements between states (e.g., Geneva Conventions).</li><li><strong>International Custom:</strong> Evidence of a general practice accepted as law (State practice + <em>Opinio Juris</em>).</li><li><strong>General Principles of Law:</strong> Legal principles common to major legal systems (e.g., res judicata, good faith).</li></ul><p><strong>Secondary Sources:</strong> Judicial decisions and teachings of the most highly qualified publicists (used as subsidiary means to determine rules of law).</p>",
+      "templates": [
+        {
+          "id": "tmpl-pil-1-1",
+          "title": "Treaty Preamble and Ratification Clause",
+          "draftText": "The States Parties to this Convention,\nRecognizing that... \nHave agreed as follows:\n\nArticle X: Ratification\nThis Convention shall be subject to ratification. Instruments of ratification shall be deposited with the Secretary-General of the UN."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "North Sea Continental Shelf Cases (1969) ICJ Rep 3",
+          "facts": "Germany, Denmark, and the Netherlands disputed the delimitation of the continental shelf. Denmark/Netherlands argued for the 'equidistance principle' based on custom.",
+          "holding": "The ICJ held that for a practice to become customary international law, it requires both widespread state practice and 'Opinio Juris' (a belief that the practice is legally obligatory)."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-pil-1-1",
+          "question": "What is 'Opinio Juris' in the context of customary international law?",
+          "options": [
+            "A judicial opinion by the ICJ",
+            "The psychological element that a practice is required by law",
+            "A treaty signed by multiple nations",
+            "A ruling by the UN Security Council"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Opinio Juris sive necessitatis is the subjective, psychological belief by a State that its behavior is mandated by a legal obligation, distinguishing custom from mere habit or courtesy."
+        }
+      ]
+    },
+    {
+      "id": "less-pil-1-2",
+      "subjectId": "subj-pil-1",
+      "title": "Recognition of States and Governments",
+      "order": 2,
+      "content": "<p><strong>What is Recognition?</strong></p><p>Recognition is a political act with legal consequences. It is how existing states formally acknowledge that a new entity meets the criteria of statehood (population, territory, government, capacity to enter relations).</p><p><strong>Theories of Recognition:</strong></p><ul><li><strong>Constitutive Theory:</strong> An entity only becomes a State when it is recognized by others. (Recognition creates the state).</li><li><strong>Declaratory Theory:</strong> A state exists factually the moment it meets the criteria; recognition merely declares a pre-existing fact. (Currently the dominant view).</li></ul><p><strong>De Facto vs. De Jure:</strong> De facto is provisional recognition of effective control. De jure is formal, complete, and irrevocable legal recognition.</p>",
+      "templates": [
+        {
+          "id": "tmpl-pil-1-2",
+          "title": "Diplomatic Note of Recognition",
+          "draftText": "The Ministry of External Affairs presents its compliments to the Ministry of Foreign Affairs of [New State].\n\nThe Government of [Recognizing State] has the honor to formally recognize [New State] as an independent and sovereign State, and proposes the establishment of diplomatic relations..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Tinoco Arbitration (Great Britain v. Costa Rica) (1923)",
+          "facts": "Tinoco overthrew the Costa Rican government and established a new regime. Great Britain refused to recognize it. After Tinoco fell, the restored government nullified contracts made by Tinoco with British companies.",
+          "holding": "The arbitrator ruled that the Tinoco regime was the effective de facto government, regardless of non-recognition by Britain. Thus, the new government inherited its obligations. This supported the Declaratory Theory."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-pil-1-2",
+          "question": "Under the Declaratory Theory, statehood is considered a matter of:",
+          "options": [
+            "Political approval by the UN",
+            "Fact, determined by objective criteria (Montevideo Convention)",
+            "Treaty signatures",
+            "Diplomatic immunity"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The Declaratory Theory, aligned with the 1933 Montevideo Convention, holds that statehood depends on objective facts (territory, population, government), independent of other states' recognition."
+        }
+      ]
+    },
+    {
+      "id": "less-cpc-1",
+      "subjectId": "subj-cpc",
+      "title": "Introduction to Civil Suits",
+      "order": 1,
+      "content": "<h2>What is a Civil Suit?</h2><p>A civil suit is a private dispute between individuals or organizations, usually involving compensation, property rights, or specific performance. Unlike criminal law, which aims to punish offenses against the state, civil law seeks to make the injured party whole.</p><h3>Section 9: The Gateway</h3><p><strong>Section 9 of the CPC</strong> states that courts have jurisdiction to try <em>all</em> suits of a civil nature, except those expressly or impliedly barred. This means the default assumption is that a civil court can hear a case.</p><ul><li><strong>Expressly barred:</strong> Where a specific statute bars civil court jurisdiction (e.g., matters reserved for the National Green Tribunal).</li><li><strong>Impliedly barred:</strong> Where general principles of law or public policy prevent the court from intervening, such as purely religious ceremonies with no property/office rights attached.</li></ul><p><strong>Example:</strong> A dispute over a breach of a commercial contract is a classic civil suit. A dispute strictly about who should be invited to a purely social gathering is not.</p>",
+      "templates": [
+        {
+          "id": "tmpl-cpc-1",
+          "title": "Draft of a Plaint Heading",
+          "draftText": "IN THE COURT OF THE CIVIL JUDGE (SENIOR DIVISION) AT [CITY]\n\nCivil Suit No. ____ of 202X\n\n[Name of Plaintiff] ... Plaintiff\nVersus\n[Name of Defendant] ... Defendant\n\nSUIT FOR RECOVERY OF MONEY"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Gundaji Satwaji Shinde v. Ramchandra Bhikaji Joshi, AIR 1979 SC 653",
+          "facts": "A dispute arose over agricultural land and the jurisdiction of civil courts to entertain the suit when a specific tenancy act was in play.",
+          "holding": "The Supreme Court clarified the limits of civil court jurisdiction under Section 9 of the CPC, holding that if a special tribunal is given exclusive jurisdiction, the civil court is ousted."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-cpc-1-1",
+          "question": "Under which section of the CPC are the inherent powers of the court defined?",
+          "options": [
+            "Section 151",
+            "Section 144",
+            "Section 11",
+            "Section 9"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Section 151 preserves the inherent power of the court to make such orders as may be necessary for the ends of justice or to prevent abuse of the process of the court."
+        }
+      ]
+    },
+    {
+      "id": "less-cpc-2",
+      "subjectId": "subj-cpc",
+      "title": "Res Judicata and Res Sub Judice",
+      "order": 2,
+      "content": "<h2>Preventing Multiplicity of Suits</h2><p>To ensure finality in litigation and prevent judicial chaos, the CPC provides two powerful doctrines: <strong>Res Sub Judice</strong> and <strong>Res Judicata</strong>.</p><h3>Section 10: Res Sub Judice</h3><p>This doctrine means 'matter under judgment'. If a suit is already pending in a competent court, a party cannot file a subsequent, identical suit in the same or another court. The court will <em>stay</em> the trial of the subsequent suit.</p><h3>Section 11: Res Judicata</h3><p>This translates to 'a matter already judged'. Once a court of competent jurisdiction has finally decided an issue between parties, those same parties cannot litigate the exact same issue again in a new lawsuit.</p><ul><li><strong>Constructive Res Judicata:</strong> You cannot bring up a claim or defense in a new suit if you <em>could have and should have</em> brought it up in the earlier suit.</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-cpc-2",
+          "title": "Application under Section 10",
+          "draftText": "APPLICATION UNDER SECTION 10 READ WITH SECTION 151 OF CPC\n\nThe Defendant respectfully submits:\n1. That the Plaintiff has filed a previously instituted suit (Suit No. XY/2022) pending before the Hon'ble District Court.\n2. That the matter in issue in the present suit is directly and substantially in issue in the previously instituted suit.\n3. It is prayed that the proceedings in the present suit be stayed."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Daryao v. State of U.P., AIR 1961 SC 1457",
+          "facts": "Petitions were filed under Article 226 in the High Court and dismissed. Later, the petitioners filed Article 32 petitions in the Supreme Court on the same facts.",
+          "holding": "The Supreme Court applied the rule of res judicata to writ petitions, stating that once a matter is decided on merits by a High Court, it cannot be re-agitated before the Supreme Court under Article 32."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-cpc-2-1",
+          "question": "What does Res Sub Judice strictly prohibit?",
+          "options": [
+            "Filing an appeal",
+            "The trial of a subsequent suit on the same matter",
+            "Execution of a decree",
+            "Filing a counter-claim"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 10 stays the 'trial' of a subsequent suit where the matter in issue is directly and substantially the same as in a previously instituted suit."
+        }
+      ]
+    },
+    {
+      "id": "less-juris-1",
+      "subjectId": "subj-jurisprudence",
+      "title": "Natural Law Theory",
+      "order": 1,
+      "content": "<h2>What is Natural Law?</h2><p>Natural Law theory asserts that law is intrinsically linked to morality and justice. It suggests that there are objective moral principles that can be discovered by human reason, and human laws are only valid if they align with these higher principles. <em>Lex iniusta non est lex</em> (an unjust law is no law at all).</p><h3>Key Thinkers</h3><ul><li><strong>Thomas Aquinas:</strong> Linked natural law to divine reason.</li><li><strong>John Locke:</strong> Focused on inalienable natural rights (life, liberty, property), influencing modern constitutionalism.</li><li><strong>Lon Fuller:</strong> Spoke of the 'inner morality of law'\u2014procedural requirements like laws being public, clear, and non-retroactive.</li></ul><p><strong>Indian Context:</strong> The Supreme Court of India frequently relies on Natural Law principles, particularly the concept of 'Reasonableness' and 'Due Process' embedded in Article 14 and Article 21 of the Constitution.</p>",
+      "templates": [
+        {
+          "id": "tmpl-juris-1",
+          "title": "Analytical Framework for Natural Law",
+          "draftText": "When analyzing a statute through a Natural Law lens, ask:\n1. Does this law violate basic human dignity?\n2. Is the procedure established by this law 'just, fair, and reasonable'?\n3. Does the law serve the common good?"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Maneka Gandhi v. Union of India, AIR 1978 SC 597",
+          "facts": "The petitioner's passport was impounded without giving her an opportunity to be heard, leading to an Article 21 challenge.",
+          "holding": "The Court read the principles of natural justice into Article 21, holding that any procedure depriving a person of personal liberty must be 'just, fair, and reasonable' and not arbitrary."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-juris-1-1",
+          "question": "Who famously stated 'an unjust law is no law at all' (Lex iniusta non est lex)?",
+          "options": [
+            "John Austin",
+            "St. Thomas Aquinas",
+            "Hans Kelsen",
+            "Jeremy Bentham"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "St. Thomas Aquinas is the foremost proponent of classical natural law theory, arguing that laws must align with divine and moral reason."
+        }
+      ]
+    },
+    {
+      "id": "less-juris-2",
+      "subjectId": "subj-jurisprudence",
+      "title": "Analytical Positivism",
+      "order": 2,
+      "content": "<h2>Separation of Law and Morals</h2><p>Unlike Natural Law, <strong>Analytical Positivism</strong> (or Legal Positivism) focuses on law <em>as it is</em>, not as it <em>ought</em> to be. It strips morality from the definition of law, treating law as a closed, logical system established by a socially recognized authority.</p><h3>The Command Theory</h3><p>John Austin defined law as the <strong>command of the sovereign, backed by a sanction</strong>. For Austin, unless a rule comes from a supreme political superior and involves the threat of punishment for non-compliance, it is not a 'law properly so called'.</p><h3>Kelsen's Pure Theory of Law</h3><p>Hans Kelsen completely separated law from sociology, psychology, and morality. He proposed a hierarchy of norms where every legal rule derives its validity from a higher rule, culminating in the <strong>Grundnorm</strong> (the foundational, presupposed starting point, like a Constitution).</p>",
+      "templates": [
+        {
+          "id": "tmpl-juris-2",
+          "title": "Positivist Analysis Checklist",
+          "draftText": "To determine if a rule is valid under Positivism:\n1. Identify the Source (Is it a recognized Sovereign/Grundnorm?)\n2. Identify the Command (Does it mandate an action?)\n3. Identify the Sanction (What is the legal penalty?)"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "A.K. Gopalan v. State of Madras, AIR 1950 SC 27",
+          "facts": "The petitioner challenged the Preventive Detention Act, arguing it violated fundamental principles of natural justice.",
+          "holding": "In a highly positivist judgment (later overturned by Maneka Gandhi), the Court held that 'procedure established by law' strictly meant any procedure enacted by the State legislature, regardless of whether it was 'just' or 'fair'."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-juris-2-1",
+          "question": "According to Hans Kelsen, what is the ultimate source of validity for all legal norms in a legal system?",
+          "options": [
+            "The Sovereign",
+            "The Grundnorm",
+            "Natural Rights",
+            "Judicial Precedents"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Kelsen's Pure Theory of Law relies on a hierarchy of norms, all of which trace their validity back to a foundational, presupposed norm called the Grundnorm."
+        }
+      ]
+    },
+    {
+      "id": "less-corp-1",
+      "subjectId": "subj-corplaw",
+      "title": "Incorporation & Corporate Veil",
+      "order": 1,
+      "content": "<h2>Separate Legal Entity</h2><p>Upon incorporation under the Companies Act, 2013, a company becomes a <strong>Separate Legal Entity</strong>. It can own property, sue, be sued, and has perpetual succession, distinct from its shareholders or directors.</p><h3>Piercing the Corporate Veil</h3><p>Because the company is a separate entity, a 'corporate veil' shields members from the company's liabilities. However, courts will 'pierce' or 'lift' this veil to hold the individuals behind the company liable if the corporate form is misused.</p><ul><li><strong>Fraud or Improper Conduct:</strong> Using the company to evade legal obligations.</li><li><strong>Tax Evasion:</strong> Setting up a sham company solely to avoid taxes.</li><li><strong>Enemy Character:</strong> To determine if the individuals controlling the company are alien enemies during wartime.</li></ul>",
+      "templates": [
+        {
+          "id": "tmpl-corp-1",
+          "title": "Memorandum of Association (MoA) - Object Clause",
+          "draftText": "III. The objects for which the Company is established are:\n(A) THE MAIN OBJECTS TO BE PURSUED BY THE COMPANY ON ITS INCORPORATION:\n1. To carry on the business of software development, IT consulting, and allied digital services in India and abroad."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Salomon v. A Salomon & Co Ltd [1897] AC 22",
+          "facts": "Salomon formed a company and transferred his shoe business to it. When the company went into liquidation, unsecured creditors claimed Salomon and the company were the same person.",
+          "holding": "The House of Lords established the principle of separate legal personality, ruling that the company was a distinct legal entity from Salomon, shielding his personal assets."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-corp-1-1",
+          "question": "Which doctrine allows courts to ignore the separate legal personality of a company to prevent fraud?",
+          "options": [
+            "Doctrine of Indoor Management",
+            "Doctrine of Ultra Vires",
+            "Piercing the Corporate Veil",
+            "Constructive Notice"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Piercing the corporate veil is an equitable remedy used by courts to look behind the corporate structure and hold individual shareholders/directors liable for fraudulent acts."
+        }
+      ]
+    },
+    {
+      "id": "less-corp-2",
+      "subjectId": "subj-corplaw",
+      "title": "Doctrine of Ultra Vires",
+      "order": 2,
+      "content": "<h2>Beyond the Powers</h2><p>The term <strong>Ultra Vires</strong> translates to 'beyond the powers'. A company's powers are strictly defined and limited by the Object Clause in its <strong>Memorandum of Association (MoA)</strong>. Any act or contract entered into by the company that falls outside these objects is ultra vires and totally void.</p><h3>Consequences of Ultra Vires Acts</h3><p>An ultra vires contract cannot be ratified (approved after the fact), even if every single shareholder agrees to it. This doctrine protects investors (ensuring their money is used only as intended) and creditors (ensuring the company's funds are not squandered on unauthorized risky ventures).</p><p><strong>Example:</strong> If a company's MoA states it is formed to 'manufacture bicycles', and the directors sign a contract to buy an oil rig, that contract is ultra vires and legally unenforceable against the company.</p>",
+      "templates": [
+        {
+          "id": "tmpl-corp-2",
+          "title": "Notice of Extraordinary General Meeting (To Alter MoA)",
+          "draftText": "NOTICE is hereby given that an EGM of the members of [Company Name] will be held on [Date] to transact the following Special Business:\n'RESOLVED THAT pursuant to Section 13 of the Companies Act, 2013, the Object Clause of the Memorandum of Association be amended...'"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Ashbury Railway Carriage and Iron Co Ltd v Riche (1875) LR 7 HL 653",
+          "facts": "The company's MoA permitted making railway carriages. The directors entered into a contract to finance a railway line construction in Belgium.",
+          "holding": "The House of Lords held the contract was ultra vires the MoA and therefore void. It could not be ratified even by unanimous shareholder approval."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-corp-2-1",
+          "question": "Can an ultra vires act be ratified by the shareholders of a company?",
+          "options": [
+            "Yes, by an ordinary resolution",
+            "Yes, by a special resolution",
+            "Yes, if 100% of shareholders agree",
+            "No, it is wholly void and cannot be ratified"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "An ultra vires act is void ab initio (from the beginning) and cannot be ratified, even with the unanimous consent of all shareholders."
+        }
+      ]
+    },
+    {
+      "id": "less-labour-1",
+      "subjectId": "subj-labourlaw",
+      "title": "Definition of 'Industry'",
+      "order": 1,
+      "content": "<h2>The Scope of Industrial Law</h2><p>For the Industrial Disputes Act, 1947 to apply, the establishment must qualify as an <strong>'Industry'</strong> under Section 2(j). If an entity is not an industry, its employees cannot raise 'industrial disputes' or claim benefits like retrenchment compensation under the Act.</p><h3>The Triple Test</h3><p>The Supreme Court expanded the definition of industry significantly. An entity is an industry if it satisfies the <strong>Triple Test</strong>:</p><ul><li>Systematic Activity</li><li>Organized by cooperation between employer and employee</li><li>For the production and/or distribution of goods and services calculated to satisfy human wants and wishes.</li></ul><p><em>Exceptions:</em> Spiritual/religious services and purely sovereign functions of the state (like police, judiciary, defense) are excluded.</p>",
+      "templates": [
+        {
+          "id": "tmpl-labour-1",
+          "title": "Charter of Demands (Trade Union)",
+          "draftText": "To, The Management, [Company Name]\n\nSubject: Charter of Demands\n\n1. Revision of Basic Pay by 20% effective next financial year.\n2. Implementation of safe working conditions in the manufacturing plant as per Factory Act norms."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Bangalore Water Supply and Sewerage Board v. A. Rajappa, AIR 1978 SC 548",
+          "facts": "Employees of the Board were fined for misconduct, and they raised a dispute. The Board claimed it was not an 'industry'.",
+          "holding": "Justice Krishna Iyer laid down the 'Triple Test'. The court ruled that hospitals, educational institutions, and clubs could be industries if they met the test, drastically widening the Act's scope."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-labour-1-1",
+          "question": "Under the Bangalore Water Supply case, which of the following is absolutely EXCLUDED from the definition of 'Industry'?",
+          "options": [
+            "Universities",
+            "Hospitals",
+            "Sovereign functions of the State",
+            "Municipal Corporations"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "While the judgment expanded the definition to include hospitals and universities, strictly sovereign functions of the State (defense, legislation, judiciary) remain excluded."
+        }
+      ]
+    },
+    {
+      "id": "less-labour-2",
+      "subjectId": "subj-labourlaw",
+      "title": "Workmen's Compensation & Notional Extension",
+      "order": 2,
+      "content": "<h2>Employer's Strict Liability</h2><p>Under the Employee's Compensation Act, 1923, an employer is strictly liable to pay compensation if a worker suffers a personal injury by accident <strong>\"arising out of and in the course of employment.\"</strong> Fault or negligence of the employer is irrelevant.</p><h3>Theory of Notional Extension</h3><p>Usually, employment begins when a worker enters the factory gates and ends when they leave. However, the courts developed the <strong>Theory of Notional Extension</strong>. This means the boundaries of employment are 'extended' conceptually.</p><p><strong>Example:</strong> If a worker is traveling to the factory on a bus specifically provided by the employer, and an accident occurs, the injury is considered to have occurred <em>in the course of employment</em>, even though the worker wasn't physically inside the factory yet.</p>",
+      "templates": [
+        {
+          "id": "tmpl-labour-2",
+          "title": "Notice of Accident to Employer",
+          "draftText": "To, The Manager, [Company Name]\n\nNotice is hereby given that [Worker Name], employed as [Role], suffered an injury on [Date] at [Time] due to an accident arising out of and in the course of employment. Nature of injury: [Details]."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "BEST Undertaking v. Agnes, AIR 1964 SC 193",
+          "facts": "A bus driver finished his shift and was returning home on another BEST bus (a facility provided to employees). The bus met with an accident and he died.",
+          "holding": "The Supreme Court applied the doctrine of notional extension. Since the employer provided the transport as a condition/facility of employment, the accident occurred in the course of employment."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-labour-2-1",
+          "question": "What is the primary requirement for a worker to claim compensation under the Employee's Compensation Act?",
+          "options": [
+            "Proving the employer was negligent",
+            "Injury arising out of and in the course of employment",
+            "Working for at least 5 years",
+            "Filing an FIR immediately"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 3 of the Act requires the injury to have arisen 'out of and in the course of employment'. It is a strict liability statute, meaning employer negligence doesn't need to be proved."
+        }
+      ]
+    },
+    {
+      "id": "less-env-1",
+      "subjectId": "subj-envlaw",
+      "title": "Public Trust Doctrine",
+      "order": 1,
+      "content": "<h2>Nature as a Trust</h2><p>The <strong>Public Trust Doctrine</strong> states that certain natural resources\u2014like rivers, seashores, forests, and air\u2014are preserved for public use. The State is not the absolute owner of these resources; rather, it acts as a <em>Trustee</em> on behalf of the public (the beneficiaries).</p><h3>State's Obligation</h3><p>Because the government holds these resources in trust, it cannot simply sell them off to private corporations or allow them to be destroyed for commercial gain. Any state action that unreasonably restricts public access to these natural resources, or damages them irreversibly, violates this doctrine.</p><p><strong>Example:</strong> A state government cannot lease a major public riverbank to a private hotel chain if it destroys the ecological balance and denies local fishermen access to the river.</p>",
+      "templates": [
+        {
+          "id": "tmpl-env-1",
+          "title": "PIL Prayer Clause (Environmental Protection)",
+          "draftText": "PRAYER:\nIn view of the facts & circumstances, the Petitioner prays that this Hon'ble Court may be pleased to:\n(a) Issue a Writ of Mandamus directing the State to cancel the mining lease threatening the local river ecosystem, invoking the Public Trust Doctrine."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "M.C. Mehta v. Kamal Nath, (1997) 1 SCC 388",
+          "facts": "A private motel (with ties to a politician) diverted the natural flow of the River Beas to protect its premises from floods, damaging the environment.",
+          "holding": "The Supreme Court formally introduced the Public Trust Doctrine into Indian jurisprudence, quashing the lease granted to the motel and ordering it to pay for ecological restoration."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-env-1-1",
+          "question": "Under the Public Trust Doctrine, what is the role of the State regarding natural resources?",
+          "options": [
+            "Absolute Owner",
+            "Trustee",
+            "Beneficiary",
+            "Bona fide purchaser"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The State acts as a Trustee, holding the natural resources in trust for the benefit of the general public (the beneficiaries)."
+        }
+      ]
+    },
+    {
+      "id": "less-env-2",
+      "subjectId": "subj-envlaw",
+      "title": "Polluter Pays & Precautionary Principles",
+      "order": 2,
+      "content": "<h2>Sustainable Development Pillars</h2><p>Indian Environmental Law heavily relies on two international principles to balance economic development with ecological protection.</p><h3>1. The Precautionary Principle</h3><p>Environmental measures must anticipate, prevent, and attack the causes of environmental degradation. Crucially, <strong>lack of scientific certainty</strong> should not be used as a reason for postponing measures to prevent environmental degradation. The burden of proof falls on the industrialist to show their actions are *not* harmful.</p><h3>2. The Polluter Pays Principle</h3><p>This principle states that the absolute liability for harm to the environment extends not only to compensating the victims of pollution but also to the <strong>cost of restoring the environmental degradation</strong>. You broke it, you buy it (and clean it up).</p>",
+      "templates": [
+        {
+          "id": "tmpl-env-2",
+          "title": "Notice to State Pollution Control Board",
+          "draftText": "To, The Chairman, SPCB\n\nSubject: Notice of environmental degradation by XYZ Factory under EPA 1986\n\nThis is to notify you that XYZ Factory is discharging untreated effluent into the adjacent lake. We request immediate inspection and levy of environmental compensation under the 'Polluter Pays' principle."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Vellore Citizens Welfare Forum v. Union of India, AIR 1996 SC 2715",
+          "facts": "Tanneries in Tamil Nadu were discharging untreated effluent into agricultural fields and rivers, causing severe ecological damage.",
+          "holding": "The Supreme Court mandated the Precautionary and Polluter Pays principles as part of the law of the land, ordering the tanneries to pay environmental compensation funds for restoration."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-env-2-1",
+          "question": "What does the Precautionary Principle dictate regarding scientific uncertainty?",
+          "options": [
+            "Wait for 100% proof before acting",
+            "Uncertainty is no excuse to delay environmental protection measures",
+            "Scientific proof is not required for criminal conviction",
+            "Only the government can commission scientific studies"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "The principle states that where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent degradation."
+        }
+      ]
+    },
+    {
+      "id": "less-prop-1",
+      "subjectId": "subj-propertylaw",
+      "title": "Concept of Sale and Exchange",
+      "order": 1,
+      "content": "<h2>Sale of Immovable Property</h2><p>Under <strong>Section 54 of the Transfer of Property Act (TPA)</strong>, a 'Sale' is defined as the transfer of ownership in exchange for a price paid or promised, or part-paid and part-promised. It completely extinguishes the seller's rights in the property and transfers them to the buyer.</p><h3>Formalities of Sale</h3><p>If the tangible immovable property is worth <strong>Rs. 100 or more</strong>, the sale can ONLY be made by a registered instrument (Sale Deed). Delivery of possession alone is not enough to legally transfer ownership for properties of this value.</p><h3>Exchange (Section 118)</h3><p>When two persons mutually transfer the ownership of one thing for the ownership of another (neither thing or both things being money only), the transaction is an 'Exchange'. It follows the exact same rules and procedures as a Sale.</p>",
+      "templates": [
+        {
+          "id": "tmpl-prop-1",
+          "title": "Sale Deed Operative Clause",
+          "draftText": "NOW THIS DEED WITNESSETH THAT in consideration of the sum of Rs. 50,00,000/- (Rupees Fifty Lakhs only) paid by the VENDEE to the VENDOR, the VENDOR doth hereby absolutely grant, convey, transfer and assign unto the VENDEE all that piece and parcel of land..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Suraj Lamp & Industries v. State of Haryana, (2012) 1 SCC 656",
+          "facts": "Real estate was routinely being 'sold' via General Power of Attorney (GPA), Sales Agreement, and Will, avoiding stamp duty and registration.",
+          "holding": "The Supreme Court strictly held that immovable property can only be legally and lawfully transferred/conveyed by a registered deed of conveyance. GPA sales do not confer title."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-prop-1-1",
+          "question": "For immovable property valued at Rs. 100 or upwards, how must the sale be executed under Section 54 of the TPA?",
+          "options": [
+            "By delivery of possession",
+            "By oral agreement and handshake",
+            "Only by a registered instrument",
+            "By an unregistered promissory note"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Section 54 strictly mandates that the sale of tangible immovable property of the value of one hundred rupees and upwards can be made only by a registered instrument."
+        }
+      ]
+    },
+    {
+      "id": "less-prop-2",
+      "subjectId": "subj-propertylaw",
+      "title": "Mortgages: Types and Rights",
+      "order": 2,
+      "content": "<h2>What is a Mortgage?</h2><p>Under <strong>Section 58 of the TPA</strong>, a mortgage is the transfer of an <em>interest</em> in specific immovable property for the purpose of securing the payment of money advanced (a loan). The transferor is the Mortgagor, and the transferee is the Mortgagee.</p><h3>Types of Mortgages</h3><ul><li><strong>Simple Mortgage:</strong> Mortgagor binds themselves personally to pay. No possession is delivered. Mortgagee can sell the property via court if not paid.</li><li><strong>Mortgage by Conditional Sale:</strong> Ostensibly a sale, but with a condition that if the loan is repaid, the sale becomes void.</li><li><strong>Usufructuary Mortgage:</strong> Possession is given to the mortgagee, who can take the rents/profits from the property instead of charging interest.</li><li><strong>English Mortgage:</strong> Absolute transfer of property to the mortgagee, with a promise that it will be transferred back upon repayment.</li></ul><h3>Right of Redemption</h3><p>Once a mortgage, always a mortgage. The Mortgagor has an absolute right to redeem (get back) the property upon paying the debt, and any condition in the deed that clogs this right is void.</p>",
+      "templates": [
+        {
+          "id": "tmpl-prop-2",
+          "title": "Simple Mortgage Deed Clause",
+          "draftText": "In consideration of the sum of Rs. 10,00,000/- borrowed by the Mortgagor from the Mortgagee, the Mortgagor hereby mortgages without possession the scheduled property as security. If the Mortgagor fails to repay, the Mortgagee shall have the right to cause the property to be sold..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Seth Ganga Dhar v. Shankar Lal, AIR 1958 SC 770",
+          "facts": "A mortgage deed contained a clause stating the property could not be redeemed for 85 years.",
+          "holding": "The Court examined if this long period was a 'clog on the equity of redemption'. It held that while a long term isn't automatically a clog, oppressive conditions that practically prevent redemption will be struck down."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-prop-2-1",
+          "question": "In which type of mortgage is the possession of the property delivered to the mortgagee to enjoy its rents and profits?",
+          "options": [
+            "Simple Mortgage",
+            "English Mortgage",
+            "Usufructuary Mortgage",
+            "Equitable Mortgage"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "In a Usufructuary mortgage, possession is delivered, and the mortgagee retains it until payment of the mortgage money, receiving rents and profits in lieu of interest."
+        }
+      ]
+    },
+    {
+      "id": "less-adr-1",
+      "subjectId": "subj-adr",
+      "title": "Fundamentals of Arbitration",
+      "order": 1,
+      "content": "<h2>What is Arbitration?</h2><p>Arbitration is an ADR mechanism where parties submit their dispute to one or more neutral private persons (arbitrators) instead of going to a traditional court. Their decision, known as an <strong>Arbitral Award</strong>, is legally binding and enforceable like a court decree.</p><h3>The Arbitration Agreement (Section 7)</h3><p>The foundation of arbitration is consent. There must be an Arbitration Agreement in writing. It can be a clause within a larger contract or a separate agreement. If a party files a civil suit despite having an arbitration clause, the other party can invoke <strong>Section 8</strong> to compel the court to refer the matter to arbitration.</p><h3>Autonomy and Interference</h3><p>The hallmark of the Arbitration and Conciliation Act, 1996, is party autonomy and minimal judicial interference (Section 5). Courts intervene primarily to assist (e.g., appointing arbitrators under Section 11) or to set aside blatantly illegal awards (Section 34).</p>",
+      "templates": [
+        {
+          "id": "tmpl-adr-1",
+          "title": "Standard Arbitration Clause",
+          "draftText": "Any dispute, controversy, or claim arising out of or relating to this contract, or the breach, termination, or invalidity thereof, shall be settled by arbitration in accordance with the Arbitration and Conciliation Act, 1996. The arbitral tribunal shall consist of a sole arbitrator appointed mutually. The seat of arbitration shall be New Delhi."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "BALCO v. Kaiser Aluminium Technical Services, (2012) 9 SCC 552",
+          "facts": "A dispute over the applicability of Part I of the Arbitration Act to foreign-seated arbitrations.",
+          "holding": "A landmark Constitution Bench ruling that established the 'seat-centric' approach. Indian courts cannot grant interim relief or set aside awards if the seat of arbitration is outside India (prospectively applied)."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-adr-1-1",
+          "question": "Under the Arbitration and Conciliation Act, 1996, what is the decision rendered by an arbitral tribunal called?",
+          "options": [
+            "A Decree",
+            "An Order",
+            "An Arbitral Award",
+            "A Settlement"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "The final decision of an arbitral tribunal is called an Arbitral Award, and it is enforceable as if it were a decree of the court under Section 36."
+        }
+      ]
+    },
+    {
+      "id": "less-adr-2",
+      "subjectId": "subj-adr",
+      "title": "Mediation and Conciliation",
+      "order": 2,
+      "content": "<h2>Facilitative vs. Evaluative ADR</h2><p>Unlike arbitration, where a third party <em>decides</em> the case, Mediation and Conciliation involve a third party who helps the disputing parties reach a mutual settlement themselves.</p><h3>Mediation</h3><p>A mediator strictly facilitates communication. They do not suggest solutions or evaluate the merits of the case. They help parties understand each other's underlying interests to find common ground. (Recognized widely under Section 89 of the CPC).</p><h3>Conciliation (Part III of Arbitration Act)</h3><p>A conciliator plays a more proactive role. Under the Act, a conciliator can actively evaluate the case, draft settlement proposals, and persuade the parties. If a settlement is reached and signed by the parties and the conciliator, it has the exact same legal status and effect as an <strong>Arbitral Award</strong>.</p>",
+      "templates": [
+        {
+          "id": "tmpl-adr-2",
+          "title": "Memorandum of Settlement (Mediation)",
+          "draftText": "MEMORANDUM OF SETTLEMENT\n\nThe parties, having attended mediation sessions on [Dates], hereby voluntarily agree to settle all claims arising out of Suit No. XX/2023 on the following terms:\n1. Party A shall pay Rs. 5 Lakhs to Party B by [Date].\n2. Party B shall withdraw all pending criminal complaints."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Afcons Infrastructure Ltd. v. Cherian Varkey Construction Co., (2010) 8 SCC 24",
+          "facts": "Issues regarding the interpretation of Section 89 of the CPC, which allows courts to refer cases to ADR.",
+          "holding": "The Supreme Court categorized cases suitable and not suitable for ADR. It laid down the procedure courts must follow under Section 89, distinguishing between arbitration, conciliation, judicial settlement, and mediation."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-adr-2-1",
+          "question": "What is the legal status of a successful settlement agreement reached through Conciliation under the 1996 Act?",
+          "options": [
+            "It is merely a gentlemen's agreement",
+            "It requires a court decree to be enforceable",
+            "It has the same status and effect as an Arbitral Award",
+            "It is only binding if notarized"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Section 74 of the Act provides that a settlement agreement reached through conciliation shall have the same status and effect as an arbitral award on agreed terms."
+        }
+      ]
+    },
+    {
+      "id": "less-tax-1",
+      "subjectId": "subj-taxlaw",
+      "title": "Income Tax Basics & Heads of Income",
+      "order": 1,
+      "content": "<h2>Charging Section & Residential Status</h2><p>The Income Tax Act, 1961, taxes a person based on their <strong>Residential Status</strong> in India during the previous year, not their citizenship. A resident pays tax on global income, while a non-resident pays tax only on income received or accruing in India.</p><h3>The 5 Heads of Income</h3><p>To calculate tax, Section 14 classifies all income into five exhaustive categories:</p><ol><li><strong>Salaries:</strong> Employer-employee relationship required.</li><li><strong>Income from House Property:</strong> Tax on the annual value of property you own (except one self-occupied property).</li><li><strong>Profits and Gains of Business or Profession (PGBP):</strong> Income from commercial activities.</li><li><strong>Capital Gains:</strong> Profits from transferring a 'capital asset' (e.g., selling shares or real estate).</li><li><strong>Income from Other Sources:</strong> The residuary head (e.g., lottery winnings, bank interest, dividends).</li></ol>",
+      "templates": [
+        {
+          "id": "tmpl-tax-1",
+          "title": "Computation of Total Income Structure",
+          "draftText": "1. Income from Salary: X\n2. Income from House Property: Y\n3. PGBP: Z\n4. Capital Gains: A\n5. Other Sources: B\nGROSS TOTAL INCOME = X+Y+Z+A+B\nLess: Deductions under Chapter VI-A (80C to 80U)\nNET TOTAL INCOME = Taxable Amount"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "CIT v. Vodafone International Holdings, (2012) 6 SCC 613",
+          "facts": "Vodafone bought a Cayman Islands company that held a controlling interest in an Indian telecom company (Hutch). Income Tax authorities demanded capital gains tax on the transaction.",
+          "holding": "The Supreme Court held that the offshore transaction was a bona fide structured FDI. Since the transfer was of a foreign share, it did not amount to a transfer of a capital asset situated in India, making it non-taxable (prompting later retrospective amendments by the Govt)."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-tax-1-1",
+          "question": "Under which head of income would interest earned on a fixed deposit be taxed?",
+          "options": [
+            "Salaries",
+            "PGBP",
+            "Capital Gains",
+            "Income from Other Sources"
+          ],
+          "correctAnswerIndex": 3,
+          "explanation": "Bank interest does not fall under salary, property, business, or capital gains, so it falls into the residuary category: Income from Other Sources (Section 56)."
+        }
+      ]
+    },
+    {
+      "id": "less-tax-2",
+      "subjectId": "subj-taxlaw",
+      "title": "GST Fundamentals",
+      "order": 2,
+      "content": "<h2>One Nation, One Tax</h2><p>The Goods and Services Tax (GST) is an indirect, consumption-based tax introduced via the 101st Constitutional Amendment. It subsumed multiple cascading taxes (Excise, VAT, Service Tax) into a single system.</p><h3>The Dual GST Model</h3><p>India operates a dual GST model. The tax levied depends on where the 'supply' happens:</p><ul><li><strong>Intra-State Supply (Within the same state):</strong> Both the Centre and the State levy tax simultaneously. This is charged as <strong>CGST</strong> (Central GST) + <strong>SGST</strong> (State GST).</li><li><strong>Inter-State Supply (Between two states):</strong> Only the Centre levies the tax, known as <strong>IGST</strong> (Integrated GST). The revenue is later shared with the destination state.</li></ul><p><strong>Input Tax Credit (ITC):</strong> The core of GST. A business can reduce the tax it owes on its final product by subtracting the tax it already paid on its purchases (inputs), preventing 'tax on tax' (cascading effect).</p>",
+      "templates": [
+        {
+          "id": "tmpl-tax-2",
+          "title": "GST Tax Invoice Breakup",
+          "draftText": "Item: Legal Consultation Services\nValue of Supply: Rs. 10,000/-\nAdd: CGST @ 9% = Rs. 900/-\nAdd: SGST @ 9% = Rs. 900/-\nTotal Invoice Value: Rs. 11,800/-"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Union of India v. Mohit Minerals Pvt. Ltd., (2022) 10 SCC 700",
+          "facts": "The case involved a dispute over whether the recommendations of the GST Council are binding on the Union and States.",
+          "holding": "The Supreme Court clarified that Article 246A gives simultaneous power to the Parliament and State legislatures to legislate on GST. The recommendations of the GST Council have persuasive value, but are not strictly legally binding."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-tax-2-1",
+          "question": "If a manufacturer in Maharashtra sells goods to a wholesaler in Gujarat, what tax will be levied on the invoice?",
+          "options": [
+            "CGST + SGST",
+            "Only CGST",
+            "IGST",
+            "VAT"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "A sale between two different states is an Inter-State supply. Therefore, Integrated GST (IGST) is levied and collected by the Centre."
+        }
+      ]
+    },
+    {
+      "id": "less-ethics-1",
+      "subjectId": "subj-ethics",
+      "title": "Duties of an Advocate",
+      "order": 1,
+      "content": "<h2>The Noble Profession</h2><p>The legal profession is not a business; it is an officer of the court aiding in the administration of justice. The <strong>Bar Council of India (BCI) Rules</strong> lay down strict standards of professional conduct and etiquette.</p><h3>Key Duties</h3><ul><li><strong>Duty to the Court:</strong> An advocate must conduct themselves with dignity, not influence judges by illegal means, and present the law honestly.</li><li><strong>Duty to the Client:</strong> An advocate is bound to accept briefs at the fee consistent with their standing. They must not withdraw from engagements without sufficient cause, nor disclose confidential client communications (Attorney-Client Privilege under Sec 126 of the Evidence Act).</li><li><strong>Duty to the Opponent:</strong> Do not communicate directly with the opposing party; communicate only through their advocate. Fulfill legitimate promises made during proceedings.</li></ul><p><em>Professional Misconduct:</em> Under Section 35 of the Advocates Act, 1961, if an advocate is found guilty of professional or other misconduct, the State Bar Council can suspend or even permanently strike their name off the roll.</p>",
+      "templates": [
+        {
+          "id": "tmpl-ethics-1",
+          "title": "Complaint format for Misconduct",
+          "draftText": "BEFORE THE DISCIPLINARY COMMITTEE OF THE BAR COUNCIL OF [STATE]\n\nComplaint under Section 35 of the Advocates Act, 1961\n\nThe Complainant submits that Advocate [Name] has committed gross professional misconduct by misappropriating funds entrusted to him for court fees..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "In Re: Vinay Chandra Mishra, (1995) 2 SCC 584",
+          "facts": "A senior advocate lost his temper and shouted at a High Court judge, using abusive language and threatening the judge during a hearing.",
+          "holding": "The Supreme Court found him guilty of criminal contempt. The Court originally suspended his license to practice, though later jurisprudence clarified that only the Bar Council can suspend a license under the Advocates Act."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-ethics-1-1",
+          "question": "Which section of the Advocates Act, 1961 deals with the punishment for professional misconduct by advocates?",
+          "options": [
+            "Section 16",
+            "Section 35",
+            "Section 22",
+            "Section 10"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 35 empowers the State Bar Council to refer complaints to its disciplinary committee, which can reprimand, suspend, or remove an advocate from the state roll."
+        }
+      ]
+    },
+    {
+      "id": "less-ethics-2",
+      "subjectId": "subj-ethics",
+      "title": "Contempt of Court",
+      "order": 2,
+      "content": "<h2>Protecting the Majesty of Law</h2><p>The Contempt of Courts Act, 1971, exists to protect the administration of justice and the dignity of the courts, not to protect the personal egos of judges. It is divided into two categories:</p><h3>1. Civil Contempt (Sec 2(b))</h3><p>This is the willful disobedience to any judgment, decree, direction, order, or writ of a court, or willful breach of an undertaking given to a court. It is a remedy to force compliance. (e.g., Refusing to vacate a property after a court order).</p><h3>2. Criminal Contempt (Sec 2(c))</h3><p>This involves the publication (words spoken, written, signs) or any act which:</p><ul><li>Scandalizes or lowers the authority of any court.</li><li>Prejudices or interferes with the due course of any judicial proceeding.</li><li>Interferes with or obstructs the administration of justice in any other manner.</li></ul><p><em>Defense:</em> Fair and accurate reporting of a judicial proceeding, or fair criticism of a judicial act, is not contempt.</p>",
+      "templates": [
+        {
+          "id": "tmpl-ethics-2",
+          "title": "Petition for Civil Contempt",
+          "draftText": "CONTEMPT PETITION (CIVIL) NO. __ OF 202X\n\nUnder Article 215 of the Constitution read with Section 12 of the Contempt of Courts Act, 1971.\n\nThe Respondent has willfully and deliberately disobeyed the final order dated [Date] passed by this Hon'ble Court, wherein he was directed to..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Prashant Bhushan Contempt Case (In Re: Prashant Bhushan), (2021) 1 SCC 745",
+          "facts": "A senior advocate published two tweets criticizing the Chief Justice of India and the role of the Supreme Court in the preceding six years.",
+          "holding": "The Supreme Court found him guilty of criminal contempt, noting the tweets scandalized the court and shook public confidence. He was fined a symbolic Re. 1."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-ethics-2-1",
+          "question": "Willful disobedience of a court's injunction order falls under which category of contempt?",
+          "options": [
+            "Criminal Contempt",
+            "Civil Contempt",
+            "Constitutional Contempt",
+            "It is not contempt, just a breach of contract"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Under Section 2(b) of the Contempt of Courts Act, willful disobedience of a court order or decree constitutes Civil Contempt."
+        }
+      ]
+    },
+    {
+      "id": "less-drafting-1",
+      "subjectId": "subj-drafting",
+      "title": "Principles of Pleading (Order VI CPC)",
+      "order": 1,
+      "content": "<h2>What is Pleading?</h2><p>Pleading includes the <strong>Plaint</strong> (filed by the plaintiff) and the <strong>Written Statement</strong> (filed by the defendant). The purpose of pleading is to bring the parties to definite issues and prevent surprise at the trial.</p><h3>The Golden Rules of Pleading (Order VI, Rule 2)</h3><ol><li><strong>Plead Facts, not Law:</strong> You must state what happened, not cite statutes or case laws. The court will apply the law to your facts.</li><li><strong>Plead Material Facts only:</strong> State the essential facts needed to prove your cause of action. Do not include irrelevant background noise.</li><li><strong>Do not plead evidence:</strong> State the fact, but do not explain *how* you will prove it. (e.g., Plead 'The defendant signed the contract', do NOT plead 'Witness A saw the defendant sign the contract').</li><li><strong>Be Concise:</strong> Draft in paragraphs, numbered consecutively. Dates, sums, and numbers must be in figures and words.</li></ol>",
+      "templates": [
+        {
+          "id": "tmpl-drafting-1",
+          "title": "Written Statement Skeleton",
+          "draftText": "WRITTEN STATEMENT ON BEHALF OF THE DEFENDANT\n\nPreliminary Objections:\n1. The suit is barred by limitation.\n\nParawise Reply:\n1. The contents of Para 1 of the Plaint are admitted.\n2. The contents of Para 2 are vehemently denied. The true fact is..."
+        }
+      ],
+      "cases": [
+        {
+          "citation": "Virendra Kashinath v. Vinayak N. Joshi, (1999) 1 SCC 47",
+          "facts": "A civil suit involved badly drafted pleadings that confused evidence with material facts.",
+          "holding": "The Supreme Court reiterated the fundamental principle of Order VI Rule 2, emphasizing that omitting material facts fatalizes a claim, but pleading evidence merely creates unnecessary confusion and should be struck out."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-drafting-1-1",
+          "question": "Which of the following violates the fundamental rules of pleading under Order VI Rule 2?",
+          "options": [
+            "Pleading only material facts",
+            "Dividing pleadings into numbered paragraphs",
+            "Pleading the legal statutes applicable to the case",
+            "Avoiding the pleading of evidence"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "You must plead facts, not law. It is the duty of the judge to determine and apply the correct law based on the material facts pleaded by the parties."
+        }
+      ]
+    },
+    {
+      "id": "less-drafting-2",
+      "subjectId": "subj-drafting",
+      "title": "Conveyancing: Drafting a Will",
+      "order": 2,
+      "content": "<h2>Testamentary Succession</h2><p>Conveyancing is the act of drafting deeds that transfer property rights (e.g., Sale, Lease, Mortgage). A <strong>Will (Testament)</strong> is a unique document because it is a unilateral declaration of a person's intention regarding their property, which takes effect only <em>after</em> their death.</p><h3>Essential Elements of a Valid Will</h3><ul><li><strong>Testamentary Capacity:</strong> The Testator (maker) must be of sound mind and not a minor.</li><li><strong>Free Will:</strong> The document must not be made under fraud, coercion, or undue influence.</li><li><strong>Execution and Attestation (Sec 63 of Indian Succession Act):</strong> The Will MUST be signed by the Testator, and it MUST be attested by <strong>two or more witnesses</strong>. The witnesses must have seen the Testator sign the Will.</li></ul><p><em>Note:</em> Registration of a Will is optional in India, but it provides strong evidentiary value against forgery claims.</p>",
+      "templates": [
+        {
+          "id": "tmpl-drafting-2",
+          "title": "Execution and Attestation Clause (Will)",
+          "draftText": "IN WITNESS WHEREOF, I, [Name of Testator], have signed this Will on this [Date] at [Place].\n\n[Signature of Testator]\n\nSigned by the above-named Testator in our presence at the same time, and each of us has in the presence of the Testator signed our name as witnesses:\n1. [Signature, Name, Address of Witness 1]\n2. [Signature, Name, Address of Witness 2]"
+        }
+      ],
+      "cases": [
+        {
+          "citation": "H. Venkatachala Iyengar v. B.N. Thimmajamma, AIR 1959 SC 443",
+          "facts": "A dispute arose regarding the genuineness of a Will, surrounded by suspicious circumstances (the propounder took a prominent part in its execution and received a massive benefit).",
+          "holding": "The Supreme Court laid down the classic guidelines for proving a Will. The burden of proof is on the propounder to dispel any 'suspicious circumstances' surrounding the execution to the satisfaction of the court."
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "q-drafting-2-1",
+          "question": "What is the minimum number of attesting witnesses required for a valid Will under the Indian Succession Act?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Witnesses are optional if the Will is registered"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Section 63 of the Indian Succession Act strictly requires that every Will (other than privileged wills of soldiers) must be attested by two or more witnesses."
+        }
+      ]
+    }
+  ]
+}
+    
