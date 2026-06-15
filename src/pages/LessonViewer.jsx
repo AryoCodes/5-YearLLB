@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { db } from '../db';
 import CaseLawCard from '../components/CaseLawCard';
 import LegalTemplate from '../components/LegalTemplate';
@@ -15,6 +15,13 @@ export default function LessonViewer({ subjectId, lessonId }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [isFocusMode, setIsFocusMode] = useState(false);
+  const contentPanelRef = useRef(null);
+
+  useEffect(() => {
+    if (activeLesson && window.innerWidth < 1024 && contentPanelRef.current) {
+      contentPanelRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [activeLesson]);
 
   useEffect(() => {
     async function loadLessonContent() {
@@ -189,7 +196,7 @@ export default function LessonViewer({ subjectId, lessonId }) {
       </aside>
 
       {/* Right Reading Content Panel */}
-      <div className="flex-1 min-w-0 bg-slate-900/65 backdrop-blur-lg border border-slate-850/80 rounded-2xl p-5 md:p-8 space-y-8 shadow-sm">
+      <div ref={contentPanelRef} className="flex-1 min-w-0 bg-slate-900/65 backdrop-blur-lg border border-slate-850/80 rounded-2xl p-5 md:p-8 space-y-8 shadow-sm">
         {activeLesson ? (
           <div className="space-y-6">
             

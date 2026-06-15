@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { db } from '../db';
 import { Search, ChevronDown, ChevronRight, Scale, BookOpen, Book, Award, Info, FileText } from 'lucide-react';
 
@@ -81,6 +81,13 @@ export default function ConstitutionExplorer() {
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedParts, setExpandedParts] = useState({});
+  const readingPanelRef = useRef(null);
+
+  useEffect(() => {
+    if (selectedArticle && window.innerWidth < 1024 && readingPanelRef.current) {
+      readingPanelRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [selectedArticle]);
 
   useEffect(() => {
     async function loadConstitution() {
@@ -266,7 +273,7 @@ export default function ConstitutionExplorer() {
           </div>
 
           {/* Right Reading Column */}
-          <div className="lg:col-span-8 glass-panel rounded-3xl overflow-hidden flex flex-col max-h-[650px] lg:max-h-[700px] border border-stone-900">
+          <div ref={readingPanelRef} className="lg:col-span-8 glass-panel rounded-3xl overflow-hidden flex flex-col max-h-[650px] lg:max-h-[700px] border border-stone-900">
             {selectedArticle ? (
               <div className="flex flex-col h-full">
                 {/* Article Header */}
